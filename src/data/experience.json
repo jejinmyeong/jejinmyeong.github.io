@@ -1,0 +1,14 @@
+{
+  "list": [
+    {
+      "title": "삼성 청년 SW 아카데미 7기 프로젝트 실습코치",
+      "logo": {
+        "type": "img",
+        "name": "ssafy"
+      },
+      "website": "ssafy.com",
+      "startdate": "2022.06",
+      "enddate": "2022.11"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "list": [
+    {
+      "title": "Tooliv",
+      "description": "",
+      "cover": "tooliv",
+      "logo": {
+        "type": "img",
+        "name": "tooliv"
+      },
+      "startdate": "2022.04.11",
+      "enddate": "2022.05.20",
+      "skill": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next",
+        "Electron",
+        "Recoil",
+        "Emotion",
+        "Java",
+        "Spring",
+        "WebRTC"
+      ],
+      "github": "github.com/TOOLIV/tooliv",
+      "tag": [
+        "팀 프로젝트",
+        "SSAFY 자율프로젝트"
+      ],
+      "participants": 6
+    },
+    {
+      "title": "DOTORE",
+      "description": "",
+      "cover": "dotore",
+      "logo": {
+        "type": "img",
+        "name": "dotore"
+      },
+      "startdate": "2022.02.28",
+      "enddate": "2022.04.08",
+      "skill": [
+        "JavaScript",
+        "TypeScript",
+        "Solidity",
+        "React",
+        "Recoil",
+        "Storybook",
+        "Remix",
+        "styled-components",
+        "Java",
+        "Spring"
+      ],
+      "github": "github.com/DOTORE-daramg",
+      "tag": [
+        "팀 프로젝트",
+        "SSAFY 특화프로젝트"
+      ],
+      "participants": 6
+    },
+    {
+      "title": "Drawing Dream",
+      "description": "",
+      "cover": "drawingdream",
+      "logo": {
+        "type": "img",
+        "name": "drawingdream"
+      },
+      "startdate": "2022.01.10",
+      "enddate": "2022.02.18",
+      "skill": [
+        "JavaScript",
+        "React",
+        "WebRTC",
+        "Redux",
+        "styled-components",
+        "Java",
+        "Spring"
+      ],
+      "github": "github.com/jejinmyeong/drawing-dream",
+      "tag": [
+        "팀 프로젝트",
+        "SSAFY 공통프로젝트"
+      ],
+      "participants": 6
+    },
+    {
+      "title": "Portfolio",
+      "description": "",
+      "cover": "portfolio",
+      "logo": {
+        "type": "img",
+        "name": "portfolio"
+      },
+      "startdate": "2023.03.20",
+      "enddate": "현재",
+      "skill": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Tailwind CSS"
+      ],
+      "github": "github.com/jejinmyeong/jejinmyeong.github.io",
+      "tag": [
+        "개인 프로젝트",
+        "현재 페이지"
+      ],
+      "participants": 1
+    }
+  ]
+}

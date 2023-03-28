@@ -1,0 +1,24 @@
+{
+  "list": [
+    {
+      "title": "삼성 청년 SW 아카데미 6기",
+      "logo": {
+        "type": "img",
+        "name": "ssafy"
+      },
+      "website": "ssafy.com",
+      "startdate": "2021.07",
+      "enddate": "2022.06"
+    },
+    {
+      "title": "한성대학교 IT융합공학부",
+      "logo": {
+        "type": "img",
+        "name": "hansung"
+      },
+      "website": "hansung.ac.kr",
+      "startdate": "2015.03",
+      "enddate": "2021.08"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "list": [
+    {
+      "title": "Language",
+      "logo": {
+        "type": "icon",
+        "name": "📕"
+      },
+      "skilllist": [
+        {
+          "level": "lv4",
+          "name": "JavaScript"
+        },
+        {
+          "level": "lv3",
+          "name": "TypeScript"
+        },
+        {
+          "level": "lv3",
+          "name": "Java"
+        },
+        {
+          "level": "lv1",
+          "name": "Solidity"
+        }
+      ]
+    },
+    {
+      "title": "Framework/Library",
+      "logo": {
+        "type": "icon",
+        "name": "📘"
+      },
+      "skilllist": [
+        {
+          "level": "lv4",
+          "name": "React"
+        },
+        {
+          "level": "lv2",
+          "name": "Next.js"
+        },
+        {
+          "level": "lv2",
+          "name": "Vue.js"
+        },
+        {
+          "level": "lv2",
+          "name": "Electron"
+        },
+        {
+          "level": "lv3",
+          "name": "Recoil"
+        },
+        {
+          "level": "lv1",
+          "name": "Redux"
+        }
+      ]
+    },
+    {
+      "title": "Markup",
+      "logo": {
+        "type": "icon",
+        "name": "🎆"
+      },
+      "skilllist": [
+        {
+          "level": "lv3",
+          "name": "CSS"
+        },
+        {
+          "level": "lv3",
+          "name": "styled-components"
+        },
+        {
+          "level": "lv3",
+          "name": "Emotion"
+        },
+        {
+          "level": "lv3",
+          "name": "Tailwind CSS"
+        }
+      ]
+    },
+    {
+      "title": "Tool",
+      "logo": {
+        "type": "icon",
+        "name": "🛠️"
+      },
+      "skilllist": [
+        {
+          "level": "lv3",
+          "name": "Jira"
+        },
+        {
+          "level": "lv3",
+          "name": "GitHub"
+        },
+        {
+          "level": "lv3",
+          "name": "GitLab"
+        },
+        {
+          "level": "lv3",
+          "name": "Notion"
+        },
+        {
+          "level": "lv4",
+          "name": "VS Code"
+        },
+        {
+          "level": "lv3",
+          "name": "Remix"
+        }
+      ]
+    }
+  ]
+}
