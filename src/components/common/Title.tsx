@@ -1,22 +1,21 @@
 import React from "react";
 import { Logo } from ".";
+import { TitleInterface } from "./types";
 
-type Titletypes = {
-  title: string;
-  logo: {
-    type: string;
-    name: string;
-  };
+const Title = ({
+  title,
+  header,
+}: {
+  title: TitleInterface;
   header?: boolean;
-};
-
-const Title = ({ title, logo, header }: Titletypes) => {
-  const large = "text-2xl md:text-3xl";
+}) => {
+  const { text, logo } = title;
+  const large = "text-2xl md:text-3xl border-b-2 pb-2";
 
   return (
     <div className={`flex gap-1 items-center ${header && large}`}>
       <Logo name={logo.name} type={logo.type} />
-      {title}
+      {text}
     </div>
   );
 };
