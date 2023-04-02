@@ -1,20 +1,17 @@
+import { TitleInterface } from "components/common/types";
 import React from "react";
-import { HorizentalLine, Title } from "../common";
+import { Title } from "../common";
 
-type ContentsTemplateTypes = {
-  title: string;
-  logo: {
-    type: string;
-    name: string;
-  };
+const ContentsTemplate = ({
+  title,
+  contents,
+}: {
+  title: TitleInterface;
   contents: JSX.Element;
-};
-
-const ContentsTemplate = ({ title, logo, contents }: ContentsTemplateTypes) => {
+}) => {
   return (
     <div className="flex flex-col gap-3">
-      <Title title={title} logo={logo} header />
-      <HorizentalLine />
+      <Title title={title} header/>
       {contents}
     </div>
   );

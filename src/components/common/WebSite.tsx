@@ -1,12 +1,8 @@
 import React from "react";
 import { Link } from "assets/svg/Figures";
+import { OtherWebSite } from "./types";
 
-type WebSitePropsTypes = {
-  website: string;
-};
-
-const WebSite = (props: WebSitePropsTypes) => {
-  const { website } = props;
+const WebSite = ({ website }: { website: OtherWebSite }) => {
   const onClick = () => {
     window.open("https://www." + website);
   };

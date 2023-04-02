@@ -1,21 +1,20 @@
 import React from "react";
 import { dotore, drawingdream, tooliv, portfolio } from "assets/images";
 import { Period, Tag, Title, WebSite } from "../../common";
+import { TitleInterface } from "components/common/types";
 
 type ListItemPropsTypes = {
   project: ProjectTypes;
 };
 
 type ProjectTypes = {
-  title: string;
+  title: TitleInterface;
   description: string;
   cover: string;
-  logo: {
-    type: string;
-    name: string;
+  period: {
+    startdate: string;
+    enddate: string;
   };
-  startdate: string;
-  enddate: string;
   skill: string[];
   github: string;
   tag: string[];
@@ -25,17 +24,7 @@ type ProjectTypes = {
 type coverImgTypes = "drawingdream" | "dotore" | "tooliv" | "portfolio";
 
 const ListItem = ({ project }: ListItemPropsTypes) => {
-  const {
-    title,
-    description,
-    cover,
-    logo,
-    startdate,
-    enddate,
-    skill,
-    github,
-    tag,
-  } = project;
+  const { title, description, cover, period, skill, github, tag } = project;
 
   const coverImg = {
     drawingdream: drawingdream,
@@ -53,7 +42,7 @@ const ListItem = ({ project }: ListItemPropsTypes) => {
         />
       </div>
       <div className="flex flex-col p-3 gap-1">
-        <Title logo={logo} title={title} />
+        <Title title={title} />
         {description}
         <div className="flex gap-1 flex-wrap">
           {skill.map((name, idx) => (
@@ -61,7 +50,7 @@ const ListItem = ({ project }: ListItemPropsTypes) => {
           ))}
         </div>
         <div className="flex gap-2 text-xs text-gray-400">
-          <Period startdate={startdate} enddate={enddate} />
+          <Period period={period} />
         </div>
         <WebSite website={github} />
         <div className="flex gap-1 flex-wrap">

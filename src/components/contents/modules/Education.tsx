@@ -6,9 +6,11 @@ import { ContentsList } from "components/common";
 const Education = () => {
   return (
     <Template
-      title={"Education"}
-      logo={{ type: "icon", name: "🎓" }}
-      contents={<ContentsList list={data.list} />}
+      title={{
+        text: "Education",
+        logo: { type: "icon", name: "🎓" },
+      }}
+      contents={<ContentsList list={data.list}/>}
     />
   );
 };

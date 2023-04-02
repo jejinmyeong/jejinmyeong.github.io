@@ -5,10 +5,12 @@ import List from "../awards/List";
 const Awards = () => {
   return (
     <ContentsTemplate
-      title="Awards"
-      logo={{
-        type: "icon",
-        name: "🏆",
+      title={{
+        text: "Awards",
+        logo: {
+          type: "icon",
+          name: "🏆",
+        }
       }}
       contents={<List></List>}
     />

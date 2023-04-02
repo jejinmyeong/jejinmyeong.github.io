@@ -1,17 +1,20 @@
+import { ContentsList } from "components/common";
 import React from "react";
 import Template from "../../template/ContentsTemplate";
 import LevelTable from "../techstacks/LevelTable";
-import List from "../techstacks/List";
+import data from 'data/skillstackdata.json';
 
 const TechStacks: React.FC = () => {
   return (
     <Template
-      title={"Tech Stack"}
-      logo={{ type: "icon", name: "📚" }}
+      title={{
+        text: "Tech Stack",
+        logo: { type: "icon", name: "📚" }
+      }}
       contents={
         <div className="px-2">
           <LevelTable />
-          <List />
+          <ContentsList list={data.list} />
         </div>
       }
     />

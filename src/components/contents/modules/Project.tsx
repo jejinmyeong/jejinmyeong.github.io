@@ -6,8 +6,10 @@ const Project = () => {
   return (
     <div>
       <Template
-        title={"Project"}
-        logo={{ type: "icon", name: "💻" }}
+        title={{
+          text: "Project",
+          logo: { type: "icon", name: "💻" }
+        }}
         contents={<List></List>}
       />
     </div>
