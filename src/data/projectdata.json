@@ -1,15 +1,19 @@
 {
   "list": [
     {
-      "title": "Tooliv",
+      "title": {
+        "text": "Tooliv",
+        "logo": {
+          "type": "img",
+          "name": "tooliv"
+        }
+      },
       "description": "",
       "cover": "tooliv",
-      "logo": {
-        "type": "img",
-        "name": "tooliv"
+      "period": {
+        "startdate": "2022.04.11",
+        "enddate": "2022.05.20"
       },
-      "startdate": "2022.04.11",
-      "enddate": "2022.05.20",
       "skill": [
         "JavaScript",
         "TypeScript",
@@ -30,15 +34,19 @@
       "participants": 6
     },
     {
-      "title": "DOTORE",
+      "title": {
+        "text": "DOTORE",
+        "logo": {
+          "type": "img",
+          "name": "dotore"
+        }
+      },
       "description": "",
       "cover": "dotore",
-      "logo": {
-        "type": "img",
-        "name": "dotore"
+      "period": {
+        "startdate": "2022.02.28",
+        "enddate": "2022.04.08"
       },
-      "startdate": "2022.02.28",
-      "enddate": "2022.04.08",
       "skill": [
         "JavaScript",
         "TypeScript",
@@ -59,15 +67,19 @@
       "participants": 6
     },
     {
-      "title": "Drawing Dream",
+      "title": {
+        "text": "Drawing Dream",
+        "logo": {
+          "type": "img",
+          "name": "drawingdream"
+        }
+      },
       "description": "",
       "cover": "drawingdream",
-      "logo": {
-        "type": "img",
-        "name": "drawingdream"
+      "period": {
+        "startdate": "2022.01.10",
+        "enddate": "2022.02.18"
       },
-      "startdate": "2022.01.10",
-      "enddate": "2022.02.18",
       "skill": [
         "JavaScript",
         "React",
@@ -85,15 +97,19 @@
       "participants": 6
     },
     {
-      "title": "Portfolio",
+      "title": {
+        "text": "Portfolio",
+        "logo": {
+          "type": "img",
+          "name": "portfolio"
+        }
+      },
       "description": "",
       "cover": "portfolio",
-      "logo": {
-        "type": "img",
-        "name": "portfolio"
+      "period": {
+        "startdate": "2023.03.20",
+        "enddate": "현재"
       },
-      "startdate": "2023.03.20",
-      "enddate": "현재",
       "skill": [
         "JavaScript",
         "TypeScript",
