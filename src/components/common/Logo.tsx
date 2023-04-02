@@ -7,11 +7,7 @@ import {
   drawingdreamlogo,
   portfoliologo,
 } from "assets/images";
-
-type LogoPropsTypes = {
-  type: string;
-  name: string;
-};
+import { LogoComponent } from "./types";
 
 type LogoImageTypes =
   | "ssafy"
@@ -21,7 +17,7 @@ type LogoImageTypes =
   | "drawingdream"
   | "portfolio";
 
-const Logo = ({ type, name }: LogoPropsTypes) => {
+const Logo = ({ type, name }: LogoComponent) => {
   const src = {
     ssafy: ssafy,
     hansung: hansung,
