@@ -1,15 +1,12 @@
 import React from "react";
 import { ContentsListItem } from ".";
+import { IListComponent } from "./types";
 
-type ListPropsTypes = {
-  list: any[];
-};
-
-const ContentsList = ({ list }: ListPropsTypes) => {
+const ContentsList = ({ list }: { list: IListComponent[] }) => {
   return (
     <div>
       {list.map((data, idx) => (
-        <ContentsListItem key={idx} list={data} />
+        <ContentsListItem key={idx} title={data.title} explain={data.explain} />
       ))}
     </div>
   );

@@ -1,33 +1,33 @@
+import Badge from "components/contents/techstacks/Badge";
 import React from "react";
 import { Period, Title, WebSite } from ".";
+import { IListComponent } from "./types";
 
-type ListItemPropsType = {
-  list: EduListTypes;
-};
-
-type EduListTypes = {
-  title: string;
-  logo: {
-    type: string;
-    name: string;
-  };
-  website: string;
-  startdate: string;
-  enddate: string;
-};
-
-const ContentsListItem = ({ list }: ListItemPropsType) => {
-  const { title, logo, website, startdate, enddate } = list;
+const ContentsListItem = ({ title, explain }: IListComponent) => {
+  const { skilllist, website, period } = explain;
 
   return (
-    <div className="flex flex-col sm:flex-row justify-between hover:bg-gray-100 py-1 px-2 rounded-lg">
-      <div className="flex gap-1 items-center whitespace-nowrap">
-        <Title title={title} logo={logo} />
+    <div
+      className={`flex justify-between py-0.5 ${
+        !skilllist && "hover:bg-gray-100 px-2 rounded-md flex-col sm:flex-row"
+      }`}
+    >
+      <div className="whitespace-nowrap">
+        <Title title={title} />
       </div>
-      <div className="flex gap-4">
-        <WebSite website={website} />
-        <Period startdate={startdate} enddate={enddate} />
-      </div>
+      {skilllist && (
+        <div className="flex gap-1 flex-wrap justify-end">
+          {skilllist.map((skill, idx) => (
+            <Badge key={idx} name={skill.name} level={skill.level} />
+          ))}
+        </div>
+      )}
+      {(website || period) && (
+        <div className="flex gap-4">
+          {website && <WebSite website={website} />}
+          {period && <Period period={period} />}
+        </div>
+      )}
     </div>
   );
 };
