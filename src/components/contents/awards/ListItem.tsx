@@ -14,9 +14,9 @@ type ListItemPropsTypes = {
 };
 
 type ListItemTypes = {
-  title: TitleInterface
+  title: TitleInterface;
   date: string;
-  img: string;
+  cover: string;
 };
 
 type coverImgTypes =
@@ -27,7 +27,7 @@ type coverImgTypes =
   | "hansung2";
 
 const ListItem = ({ award }: ListItemPropsTypes) => {
-  const { title, date, img } = award;
+  const { title, date, cover } = award;
   const coverImg = {
     project1: project1,
     project2: project2,
@@ -40,7 +40,7 @@ const ListItem = ({ award }: ListItemPropsTypes) => {
       <img
         className="object-contain h-64 m-auto"
         alt="award"
-        src={coverImg[img as coverImgTypes]}
+        src={coverImg[cover as coverImgTypes]}
       />
       <div className="flex flex-col p-3 gap-1">
         <Title title={title} />

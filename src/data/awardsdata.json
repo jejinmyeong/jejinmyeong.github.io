@@ -9,7 +9,7 @@
         }
       },
       "date": "2022.05.27",
-      "img": "project2"
+      "cover": "project2"
     },
     {
       "title": {
@@ -20,7 +20,7 @@
         }
       },
       "date": "2022.04.08",
-      "img": "project3"
+      "cover": "project3"
     },
     {
       "title": {
@@ -31,7 +31,7 @@
         }
       },
       "date": "2022.02.18",
-      "img": "project1"
+      "cover": "project1"
     },
     {
       "title": {
@@ -42,7 +42,7 @@
         }
       },
       "date": "2019.09.27",
-      "img": "hansung2"
+      "cover": "hansung2"
     },
     {
       "title": {
@@ -53,7 +53,7 @@
         }
       },
       "date": "2019.09.27",
-      "img": "hansung1"
+      "cover": "hansung1"
     }
   ]
 }
