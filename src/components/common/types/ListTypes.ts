@@ -2,14 +2,17 @@ import { TitleInterface } from ".";
 
 export default interface IListComponent {
   title: TitleInterface;
-  explain: ListItemComponent;
+  explain: TechStackListItem | OtherListItem;
 }
 
-type ListItemComponent = {
-  skilllist?: SkillListTypes [],
-  website?: OtherWebSite;
-  period?: PeriodTypes;
-}
+export type TechStackListItem = {
+  skilllist: SkillListTypes[];
+};
+
+export type OtherListItem = {
+  website: OtherWebSite;
+  period: PeriodTypes;
+};
 
 export type SkillListTypes = {
   level: SkillListLevel;
@@ -19,7 +22,7 @@ export type SkillListTypes = {
 export type PeriodTypes = {
   startdate: OtherStartDate;
   enddate: OtherEndDate;
-}
+};
 
 export type OtherWebSite = string;
 type OtherStartDate = string;
