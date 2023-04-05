@@ -10,7 +10,7 @@ const Education = () => {
         text: "Education",
         logo: { type: "icon", name: "🎓" },
       }}
-      contents={<ContentsList list={data.list}/>}
+      contents={<ContentsList list={data.list} />}
     />
   );
 };
