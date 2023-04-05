@@ -1,8 +1,10 @@
 export type {
   default as IListComponent,
-  PeriodTypes,
-  SkillListTypes,
+  TechStackListItem,
+  OtherListItem,
   OtherWebSite,
-} from "./ListComponentTypes";
+  SkillListTypes,
+  PeriodTypes,
+} from "./ListTypes";
 export type { default as TitleInterface } from "./TitleTypes";
-export type { LogoComponent } from "./LogoComponentTypes";
+export type { LogoComponent } from "./LogoTypes";
