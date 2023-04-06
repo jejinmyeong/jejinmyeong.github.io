@@ -1,4 +1,3 @@
-import Badge from "components/contents/techstacks/Badge";
 import React from "react";
 import { Period, WebSite } from ".";
 import { OtherListItem } from "./types";

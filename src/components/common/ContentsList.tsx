@@ -1,8 +1,7 @@
 import React from "react";
-import { ContentsListItem } from ".";
+import { ContentsListItem, BadgeListItem } from ".";
 import { IListComponent, OtherListItem, TechStackListItem } from "./types";
 import ListItemTemplate from "components/template/ListItemTemplate";
-import BadgeListItem from "./BadgeListItem";
 
 const ContentsList = ({
   list,

@@ -1,7 +1,7 @@
 import React from "react";
 import { profileimg } from "assets/images";
 
-const Profile: React.FC = () => {
+const Profile = () => {
   return (
     <div>
       <img
