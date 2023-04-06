@@ -1,5 +1,6 @@
 export type {
-  default as IListComponent,
+  IListComponent,
+  IListItemTemplate,
   TechStackListItem,
   OtherListItem,
   OtherWebSite,
@@ -7,4 +8,6 @@ export type {
   PeriodTypes,
 } from "./ListTypes";
 export type { default as TitleInterface } from "./TitleTypes";
-export type { LogoComponent } from "./LogoTypes";
+export type { LogoComponent, LogoImageTypes } from "./LogoTypes";
+export type { ICardListComponent, ICardListItemTamplate, CoverImgTypes } from "./CardListTypes";
+export type { TagComponent, TagNameTypes} from './TagTypes';
