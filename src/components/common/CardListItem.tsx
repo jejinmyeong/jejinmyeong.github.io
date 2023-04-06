@@ -27,16 +27,18 @@ const CardListItem = ({ title, cover, explain }: ICardListComponent) => {
     portfolio: portfolio,
   };
   return (
-    <div className="rounded-lg shadow-custom hover:bg-gray-100 overflow-hidden">
-      <img
-        className={
-          github
-            ? "object-cover h-48 sm:h-44 md:h-52 w-full hover:scale-110"
-            : "object-contain h-64 m-auto"
-        }
-        alt="award"
-        src={coverImg[cover as CoverImgTypes]}
-      />
+    <div className="rounded-lg shadow-custom hover:bg-gray-100">
+      <div className="overflow-hidden">
+        <img
+          className={
+            github
+              ? "object-cover h-48 sm:h-44 md:h-52 w-full hover:scale-110"
+              : "object-contain h-64 m-auto"
+          }
+          alt="award"
+          src={coverImg[cover as CoverImgTypes]}
+        />
+      </div>
       <div className="flex flex-col p-3 gap-1">
         <Title title={title} />
         {date && <div className="text-sm text-gray-400">{date}</div>}
