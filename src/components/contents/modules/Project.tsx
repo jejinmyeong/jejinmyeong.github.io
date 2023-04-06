@@ -1,14 +1,17 @@
 import React from "react";
-import Template from "../../template/ContentsTemplate";
-import List from "../project/List";
+import { CardList } from "components/common";
+import ContentsTemplate from "../../template/ContentsTemplate";
+import data from 'data/projectdata.json'
 
 const Project = () => {
   return (
     <div>
-      <Template
-        title={"Project"}
-        logo={{ type: "icon", name: "💻" }}
-        contents={<List></List>}
+      <ContentsTemplate
+        title={{
+          text: "Project",
+          logo: { type: "icon", name: "💻" }
+        }}
+        contents={<CardList list={data.list} fr={2}/>}
       />
     </div>
   );

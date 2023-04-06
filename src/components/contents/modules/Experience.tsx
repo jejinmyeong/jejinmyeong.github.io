@@ -6,10 +6,12 @@ import { ContentsList } from "components/common";
 const Experience = () => {
   return (
     <ContentsTemplate
-      title="Experience"
-      logo={{
-        type: "icon",
-        name: "💼",
+      title={{
+        text: "Experience",
+        logo: {
+          type: "icon",
+          name: "💼",
+        },
       }}
       contents={<ContentsList list={data.list} />}
     />
