@@ -29,7 +29,11 @@ const CardListItem = ({ title, cover, explain }: ICardListComponent) => {
   return (
     <div className="rounded-lg shadow-custom hover:bg-gray-100 overflow-hidden">
       <img
-        className="object-contain h-64 m-auto"
+        className={
+          github
+            ? "object-cover h-48 sm:h-44 md:h-52 w-full hover:scale-110"
+            : "object-contain h-64 m-auto"
+        }
         alt="award"
         src={coverImg[cover as CoverImgTypes]}
       />
