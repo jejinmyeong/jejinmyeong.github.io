@@ -1,8 +1,13 @@
 import { TitleInterface } from ".";
 
-export default interface IListComponent {
+export interface IListComponent {
   title: TitleInterface;
   explain: TechStackListItem | OtherListItem;
+}
+
+export interface IListItemTemplate extends Pick<IListComponent, "title"> {
+  badge?: Badge;
+  children: JSX.Element;
 }
 
 export type TechStackListItem = {
@@ -30,3 +35,5 @@ type OtherEndDate = string;
 
 type SkillListLevel = string;
 type SkillListName = string;
+
+type Badge = boolean;
