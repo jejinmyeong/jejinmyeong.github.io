@@ -1,28 +1,7 @@
 import React from "react";
+import { TagComponent, TagNameTypes } from "./types";
 
-type TagPropsTypes = {
-  name: string;
-};
-
-type TagNameTypes =
-  | "JavaScript"
-  | "TypeScript"
-  | "React"
-  | "Next"
-  | "Recoil"
-  | "Emotion"
-  | "Java"
-  | "Spring"
-  | "Electron"
-  | "WebRTC"
-  | "Solidity"
-  | "Storybook"
-  | "Remix"
-  | "Redux"
-  | "styled-components"
-  | "Tailwind CSS";
-
-const Tag = ({ name }: TagPropsTypes) => {
+const Tag = ({ name }: TagComponent) => {
   const Colors = {
     JavaScript: "text-yellow-500 bg-yellow-100",
     TypeScript: "text-blue-500 bg-blue-100",
