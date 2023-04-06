@@ -1,6 +1,7 @@
 import React from "react";
+import { CardList } from "components/common";
 import ContentsTemplate from "../../template/ContentsTemplate";
-import List from "../awards/List";
+import data from "data/awardsdata.json";
 
 const Awards = () => {
   return (
@@ -10,9 +11,9 @@ const Awards = () => {
         logo: {
           type: "icon",
           name: "🏆",
-        }
+        },
       }}
-      contents={<List></List>}
+      contents={<CardList list={data.list} fr={3} />}
     />
   );
 };
