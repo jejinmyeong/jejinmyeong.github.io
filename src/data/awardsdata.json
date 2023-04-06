@@ -8,8 +8,10 @@
           "name": "🥇"
         }
       },
-      "date": "2022.05.27",
-      "cover": "project2"
+      "cover": "project2",
+      "explain": {
+        "date": "2022.05.27"
+      }
     },
     {
       "title": {
@@ -19,8 +21,10 @@
           "name": "🥇"
         }
       },
-      "date": "2022.04.08",
-      "cover": "project3"
+      "cover": "project3",
+      "explain": {
+        "date": "2022.04.08"
+      }
     },
     {
       "title": {
@@ -30,8 +34,10 @@
           "name": "🥇"
         }
       },
-      "date": "2022.02.18",
-      "cover": "project1"
+      "cover": "project1",
+      "explain": {
+        "date": "2022.02.18"
+      }
     },
     {
       "title": {
@@ -41,8 +47,10 @@
           "name": "🥉"
         }
       },
-      "date": "2019.09.27",
-      "cover": "hansung2"
+      "cover": "hansung2",
+      "explain": {
+        "date": "2019.09.27"
+      }
     },
     {
       "title": {
@@ -52,8 +60,10 @@
           "name": "🎖️"
         }
       },
-      "date": "2019.09.27",
-      "cover": "hansung1"
+      "cover": "hansung1",
+      "explain": {
+        "date": "2019.09.27"
+      }
     }
   ]
 }
