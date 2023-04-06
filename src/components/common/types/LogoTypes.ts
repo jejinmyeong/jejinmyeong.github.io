@@ -3,5 +3,13 @@ export type LogoComponent = {
   name: LogoName;
 }
 
+export type LogoImageTypes =
+  | "ssafy"
+  | "hansung"
+  | "tooliv"
+  | "dotore"
+  | "drawingdream"
+  | "portfolio";
+
 type LogoType = string;
 type LogoName = string;

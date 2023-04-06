@@ -7,18 +7,10 @@ import {
   drawingdreamlogo,
   portfoliologo,
 } from "assets/images";
-import { LogoComponent } from "./types";
-
-type LogoImageTypes =
-  | "ssafy"
-  | "hansung"
-  | "tooliv"
-  | "dotore"
-  | "drawingdream"
-  | "portfolio";
+import { LogoComponent, LogoImageTypes } from "./types";
 
 const Logo = ({ type, name }: LogoComponent) => {
-  const src = {
+  const logoImg = {
     ssafy: ssafy,
     hansung: hansung,
     tooliv: toolivlogo,
@@ -31,7 +23,11 @@ const Logo = ({ type, name }: LogoComponent) => {
       {type === "icon" ? (
         <span>{name}</span>
       ) : (
-        <img className="h-5 w-5" alt="logo" src={src[name as LogoImageTypes]} />
+        <img
+          className="h-5 w-5"
+          alt="logo"
+          src={logoImg[name as LogoImageTypes]}
+        />
       )}
     </>
   );
