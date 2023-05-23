@@ -1,0 +1,39 @@
+{
+  "list": [
+    {
+      "title": "🥇 SSAFY 자율프로젝트 우수상",
+      "cover": "https://user-images.githubusercontent.com/60130075/234106568-6ac66e64-8c83-4b44-b119-f89d0f114ae8.jpg",
+      "explain": {
+        "enddate": "2022.05.27"
+      }
+    },
+    {
+      "title": "🥇 SSAFY 특화프로젝트 우수상",
+      "cover": "https://user-images.githubusercontent.com/60130075/234106648-f6d7e548-446a-4690-a796-f65741752b32.jpg",
+      "explain": {
+        "enddate": "2022.04.08"
+      }
+    },
+    {
+      "title": "🥇 SSAFY 공통프로젝트 우수상",
+      "cover": "https://user-images.githubusercontent.com/60130075/234106704-3acf8156-4539-4af3-ba78-18e60aa93890.jpg",
+      "explain": {
+        "enddate": "2022.02.18"
+      }
+    },
+    {
+      "title": "🥉 한성 공학경진대회 동상",
+      "cover": "https://user-images.githubusercontent.com/60130075/234106775-2befbaf5-d1bf-4aed-b734-64b6aca8f497.jpg",
+      "explain": {
+        "enddate": "2019.09.27"
+      }
+    },
+    {
+      "title": "🎖️ 한성 공학경진대회 후원업체상",
+      "cover": "https://user-images.githubusercontent.com/60130075/234106869-33d3b51c-0fdc-4792-b7ef-8e50589c0a22.jpg",
+      "explain": {
+        "enddate": "2019.09.27"
+      }
+    }
+  ]
+}

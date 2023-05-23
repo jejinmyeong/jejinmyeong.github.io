@@ -1,20 +1,12 @@
 {
   "list": [
     {
-      "title": {
-        "text": "Tooliv",
-        "logo": {
-          "type": "img",
-          "name": "tooliv"
-        }
-      },
-      "cover": "tooliv",
+      "title": "Tooliv",
+      "cover": "https://user-images.githubusercontent.com/60130075/234105914-74ada473-dc1f-4396-8fb7-6efaf313ab38.png",
       "explain": {
         "description": "",
-        "period": {
-          "startdate": "2022.04.11",
-          "enddate": "2022.05.20"
-        },
+        "startdate": "2022.04.11",
+        "enddate": "2022.05.20",
         "skill": [
           "JavaScript",
           "TypeScript",
@@ -36,20 +28,12 @@
       }
     },
     {
-      "title": {
-        "text": "DOTORE",
-        "logo": {
-          "type": "img",
-          "name": "dotore"
-        }
-      },
-      "cover": "dotore",
+      "title": "DOTORE",
+      "cover": "https://user-images.githubusercontent.com/60130075/234106045-504fdb30-77e6-44f2-b3f9-03bd2d60d126.png",
       "explain": {
         "description": "",
-        "period": {
-          "startdate": "2022.02.28",
-          "enddate": "2022.04.08"
-        },
+        "startdate": "2022.02.28",
+        "enddate": "2022.04.08",
         "skill": [
           "JavaScript",
           "TypeScript",
@@ -71,20 +55,12 @@
       }
     },
     {
-      "title": {
-        "text": "Drawing Dream",
-        "logo": {
-          "type": "img",
-          "name": "drawingdream"
-        }
-      },
-      "cover": "drawingdream",
+      "title": "Drawing Dream",
+      "cover": "https://user-images.githubusercontent.com/60130075/234106110-7af93557-4565-444b-8aef-529a9ad7dad8.png",
       "explain": {
         "description": "",
-        "period": {
-          "startdate": "2022.01.10",
-          "enddate": "2022.02.18"
-        },
+        "startdate": "2022.01.10",
+        "enddate": "2022.02.18",
         "skill": [
           "JavaScript",
           "React",
@@ -103,20 +79,12 @@
       }
     },
     {
-      "title": {
-        "text": "Portfolio",
-        "logo": {
-          "type": "img",
-          "name": "portfolio"
-        }
-      },
-      "cover": "portfolio",
+      "title": "Portfolio",
+      "cover": "https://user-images.githubusercontent.com/60130075/234106177-8208261d-8293-48a1-b993-9b5a4a9f0625.png",
       "explain": {
         "description": "",
-        "period": {
-          "startdate": "2023.03.20",
-          "enddate": "현재"
-        },
+        "startdate": "2023.03.20",
+        "enddate": "현재",
         "skill": [
           "JavaScript",
           "TypeScript",

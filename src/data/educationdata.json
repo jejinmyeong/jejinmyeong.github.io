@@ -1,35 +1,19 @@
 {
   "list": [
     {
-      "title": {
-        "text": "삼성 청년 SW 아카데미 6기",
-        "logo": {
-          "type": "img",
-          "name": "ssafy"
-        }
-      },
+      "title": "삼성 청년 SW 아카데미 6기",
       "explain": {
         "website": "ssafy.com",
-        "period": {
-          "startdate": "2021.07",
-          "enddate": "2022.06"
-        }
+        "startdate": "2021.07",
+        "enddate": "2022.06"
       }
     },
     {
-      "title": {
-        "text": "한성대학교 IT융합공학부",
-        "logo": {
-          "type": "img",
-          "name": "hansung"
-        }
-      },
+      "title": "한성대학교 IT융합공학부",
       "explain": {
         "website": "hansung.ac.kr",
-        "period": {
-          "startdate": "2015.03",
-          "enddate": "2021.08"
-        }
+        "startdate": "2015.03",
+        "enddate": "2021.08"
       }
     }
   ]

@@ -1,132 +1,108 @@
 {
   "list": [
     {
-      "title": {
-        "text": "Language",
-        "logo": {
-          "type": "icon",
-          "name": "📕"
-        }
-      },
+      "title": "📕 Language",
       "explain": {
         "skilllist": [
           {
-            "level": "lv4",
+            "level": 4,
             "name": "JavaScript"
           },
           {
-            "level": "lv3",
+            "level": 3,
             "name": "TypeScript"
           },
           {
-            "level": "lv3",
+            "level": 3,
             "name": "Java"
           },
           {
-            "level": "lv1",
+            "level": 1,
             "name": "Solidity"
           }
         ]
       }
     },
     {
-      "title": {
-        "text": "Framework/Library",
-        "logo": {
-          "type": "icon",
-          "name": "📘"
-        }
-      },
+      "title": "📘 Framework/Library",
       "explain": {
         "skilllist": [
           {
-            "level": "lv4",
+            "level": 4,
             "name": "React"
           },
           {
-            "level": "lv2",
+            "level": 2,
             "name": "Next.js"
           },
           {
-            "level": "lv2",
+            "level": 2,
             "name": "Vue.js"
           },
           {
-            "level": "lv2",
+            "level": 2,
             "name": "Electron"
           },
           {
-            "level": "lv3",
+            "level": 3,
             "name": "Recoil"
           },
           {
-            "level": "lv1",
+            "level": 1,
             "name": "Redux"
           }
         ]
       }
     },
     {
-      "title": {
-        "text": "Markup",
-        "logo": {
-          "type": "icon",
-          "name": "🎆"
-        }
-      },
+      "title": "🎆 Markup",
       "explain": {
         "skilllist": [
           {
-            "level": "lv3",
+            "level": 3,
             "name": "CSS"
           },
           {
-            "level": "lv3",
+            "level": 3,
             "name": "styled-components"
           },
           {
-            "level": "lv3",
+            "level": 3,
             "name": "Emotion"
           },
           {
-            "level": "lv3",
+            "level": 3,
             "name": "Tailwind CSS"
           }
         ]
       }
     },
     {
-      "title": {
-        "text": "Tool",
-        "logo": {
-          "type": "icon",
-          "name": "🛠️"
-        }
-      },
+      "title": "🛠️ Tool",
       "explain": {
         "skilllist": [
           {
-            "level": "lv3",
+            "level": 3,
             "name": "Jira"
           },
           {
-            "level": "lv3",
+            "level": 3,
             "name": "GitHub"
           },
           {
-            "level": "lv3",
+            "level": 3,
             "name": "GitLab"
           },
           {
-            "level": "lv3",
+            "level": 3,
             "name": "Notion"
           },
           {
-            "level": "lv4",
+            "level": 4,
             "name": "VS Code"
           },
           {
-            "level": "lv3",
+            "level": 3,
             "name": "Remix"
           }
         ]
