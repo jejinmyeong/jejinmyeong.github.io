@@ -1,7 +1,29 @@
 import React from "react";
-import { TagComponent, TagNameTypes } from "./types";
+import classNames from "classnames";
 
-const Tag = ({ name }: TagComponent) => {
+type Props = {
+  children: string;
+};
+
+type TagNameTypes =
+  | "JavaScript"
+  | "TypeScript"
+  | "React"
+  | "Next"
+  | "Recoil"
+  | "Emotion"
+  | "Java"
+  | "Spring"
+  | "Electron"
+  | "WebRTC"
+  | "Solidity"
+  | "Storybook"
+  | "Remix"
+  | "Redux"
+  | "styled-components"
+  | "Tailwind CSS";
+
+const Tag = ({ children }: Props) => {
   const Colors = {
     JavaScript: "text-yellow-500 bg-yellow-100",
     TypeScript: "text-blue-500 bg-blue-100",
@@ -22,17 +44,16 @@ const Tag = ({ name }: TagComponent) => {
     default: "text-gray-500 border border-gray-400",
   };
 
-  return (
-    <span
-      className={`text-xxs p-0.5 text- rounded-sm ${
-        Object.keys(Colors).includes(name)
-          ? Colors[name as TagNameTypes]
-          : Colors.default
-      }`}
-    >
-      {name}
-    </span>
+  const tagClasses = classNames(
+    "text-xxs",
+    "p-0.5",
+    "rounded-sm",
+    Object.keys(Colors).includes(children)
+      ? Colors[children as TagNameTypes]
+      : Colors.default,
   );
+
+  return <span className={tagClasses}>{children}</span>;
 };
 
 export default Tag;
